@@ -1,0 +1,21 @@
+<?php
+/**
+ * lucy_LucyMail Magento JS component
+ *
+ * @category    lucy
+ * @package     lucy_LucyMail
+ * @author      lucy Team <info@lucy.com.ng>
+ * @copyright   lucy (http://lucy.com.ng)
+ * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+
+?>
+<table>
+    <tr>
+        <td>
+            <button style="" onclick="javascript:window.open('<?php echo $block->getButtonUrl()?>', 'apiwizard','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, ,left=100, top=100, width=500, height=700'); return false;" class="scalable" type="button" id="<?php echo $block->getHtmlId() ?>">
+                <span><?php echo __($block->escapeHtml($block->getButtonLabel())); ?></span>
+            </button>
+        </td>
+    </tr>
+</table>

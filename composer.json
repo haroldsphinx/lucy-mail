@@ -1,0 +1,19 @@
+{
+    "name": "lucy/magento2-LucyMail",
+    "autoload": {
+        "psr-4": {"lucy\\LucyMail\\":""},
+        "files": ["registration.php"]
+    },
+    "description": "Connect Mailchimp with Magento",
+    "type": "magento2-module",
+    "version": "3.0.8",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "support": {
+        "email": "info@lucy.com.ng.ng",
+        "wiki": "http://wiki.lucy.com.ng",
+        "forum": "http://lucy.com.ng/forums/view/1"
+    }
+}
